@@ -17,6 +17,7 @@ export default function Onboarding() {
 
   return (
     <div className="flex justify-center items-center pt-14">
+      
       <OrganizationList
         hidePersonal
         afterCreateOrganizationUrl="/organization/:slug"

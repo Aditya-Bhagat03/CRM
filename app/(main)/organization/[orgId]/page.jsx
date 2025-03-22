@@ -28,6 +28,7 @@ export default async function OrganizationPage({ params }) {
 
         <OrgSwitcher />
       </div>
+      
       <div className="mb-4">
         <ProjectList orgId={organization.id} />
       </div>
