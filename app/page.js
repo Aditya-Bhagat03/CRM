@@ -107,14 +107,14 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="bg-gray-900 py-20 px-5">
+      <section id="features" className="bg-[#13151b] text-gray-10 py-20 px-5">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-12 text-center">Key Features</h3>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <Card key={index} className="bg-gray-800">
+              <Card key={index} className="bg-[#191c23]">
                 <CardContent className="pt-6">
-                  <feature.icon className="h-12 w-12 mb-4 text-blue-300" />
+                  <feature.icon className="h-12 w-12 mb-4 text-gray-700" />
                   <h4 className="text-xl font-semibold mb-2">
                     {feature.title}
                   </h4>
@@ -137,7 +137,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="bg-gray-900 py-20 px-5">
+      <section className="bg-[#13151b] py-20 px-5">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-12 text-center">
             Frequently Asked Questions
